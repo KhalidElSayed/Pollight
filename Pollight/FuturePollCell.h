@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FuturePollCell.h
 //  Pollight
 //
 //  Created by amir hayek on 11/21/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FuturePollCell : UICollectionViewCell <UITableViewDataSource, UITableViewDelegate>
 
 @end

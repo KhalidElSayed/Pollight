@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		757E7C55183E08BE008A6AC1 /* TodaysPollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C54183E08BE008A6AC1 /* TodaysPollCell.m */; };
+		757E7C58183E148A008A6AC1 /* OldPollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C57183E148A008A6AC1 /* OldPollCell.m */; };
+		757E7C5B183E16BF008A6AC1 /* FuturePollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C5A183E16BF008A6AC1 /* FuturePollCell.m */; };
+		757E7C5E183E1A45008A6AC1 /* SLPanningTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C5D183E1A45008A6AC1 /* SLPanningTableView.m */; };
+		757E7C61183E1E78008A6AC1 /* TodaysPollSlidingAnswerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C60183E1E78008A6AC1 /* TodaysPollSlidingAnswerTableCell.m */; };
+		757E7C64183E38C9008A6AC1 /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C63183E38C9008A6AC1 /* DataHandler.m */; };
+		757E7C68183E3B5C008A6AC1 /* Poll.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C67183E3B5C008A6AC1 /* Poll.m */; };
+		757E7C6B183E3B63008A6AC1 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C6A183E3B63008A6AC1 /* Answer.m */; };
+		757E7C6F183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C6E183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m */; };
+		757E7C75183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C74183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m */; };
+		757E7C78183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C77183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m */; };
 		75AFE278183E050C00EF1506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE277183E050C00EF1506 /* Foundation.framework */; };
 		75AFE27A183E050C00EF1506 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE279183E050C00EF1506 /* CoreGraphics.framework */; };
 		75AFE27C183E050C00EF1506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE27B183E050C00EF1506 /* UIKit.framework */; };
@@ -14,7 +25,7 @@
 		75AFE284183E050C00EF1506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AFE283183E050C00EF1506 /* main.m */; };
 		75AFE288183E050C00EF1506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AFE287183E050C00EF1506 /* AppDelegate.m */; };
 		75AFE28B183E050C00EF1506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AFE289183E050C00EF1506 /* Main.storyboard */; };
-		75AFE28E183E050C00EF1506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AFE28D183E050C00EF1506 /* ViewController.m */; };
+		75AFE28E183E050C00EF1506 /* PollightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AFE28D183E050C00EF1506 /* PollightViewController.m */; };
 		75AFE290183E050C00EF1506 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AFE28F183E050C00EF1506 /* Images.xcassets */; };
 		75AFE297183E050C00EF1506 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE296183E050C00EF1506 /* XCTest.framework */; };
 		75AFE298183E050C00EF1506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE277183E050C00EF1506 /* Foundation.framework */; };
@@ -34,6 +45,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		757E7C53183E08BE008A6AC1 /* TodaysPollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaysPollCell.h; sourceTree = "<group>"; };
+		757E7C54183E08BE008A6AC1 /* TodaysPollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaysPollCell.m; sourceTree = "<group>"; };
+		757E7C56183E148A008A6AC1 /* OldPollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldPollCell.h; sourceTree = "<group>"; };
+		757E7C57183E148A008A6AC1 /* OldPollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldPollCell.m; sourceTree = "<group>"; };
+		757E7C59183E16BF008A6AC1 /* FuturePollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuturePollCell.h; sourceTree = "<group>"; };
+		757E7C5A183E16BF008A6AC1 /* FuturePollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuturePollCell.m; sourceTree = "<group>"; };
+		757E7C5C183E1A45008A6AC1 /* SLPanningTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPanningTableView.h; sourceTree = "<group>"; };
+		757E7C5D183E1A45008A6AC1 /* SLPanningTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPanningTableView.m; sourceTree = "<group>"; };
+		757E7C5F183E1E78008A6AC1 /* TodaysPollSlidingAnswerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaysPollSlidingAnswerTableCell.h; sourceTree = "<group>"; };
+		757E7C60183E1E78008A6AC1 /* TodaysPollSlidingAnswerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaysPollSlidingAnswerTableCell.m; sourceTree = "<group>"; };
+		757E7C62183E38C9008A6AC1 /* DataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+		757E7C63183E38C9008A6AC1 /* DataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
+		757E7C66183E3B5C008A6AC1 /* Poll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poll.h; sourceTree = "<group>"; };
+		757E7C67183E3B5C008A6AC1 /* Poll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poll.m; sourceTree = "<group>"; };
+		757E7C69183E3B63008A6AC1 /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		757E7C6A183E3B63008A6AC1 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
+		757E7C6D183E4406008A6AC1 /* TodaysPollQuesitonTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaysPollQuesitonTableCell.h; sourceTree = "<group>"; };
+		757E7C6E183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaysPollQuesitonTableCell.m; sourceTree = "<group>"; };
+		757E7C73183E6B9B008A6AC1 /* OldPollQuesitonTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldPollQuesitonTableCell.h; sourceTree = "<group>"; };
+		757E7C74183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldPollQuesitonTableCell.m; sourceTree = "<group>"; };
+		757E7C76183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldPollSlidingAnswerTableCell.h; sourceTree = "<group>"; };
+		757E7C77183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldPollSlidingAnswerTableCell.m; sourceTree = "<group>"; };
 		75AFE274183E050C00EF1506 /* Pollight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AFE277183E050C00EF1506 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75AFE279183E050C00EF1506 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +78,8 @@
 		75AFE286183E050C00EF1506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75AFE287183E050C00EF1506 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75AFE28A183E050C00EF1506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75AFE28C183E050C00EF1506 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75AFE28D183E050C00EF1506 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75AFE28C183E050C00EF1506 /* PollightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PollightViewController.h; sourceTree = "<group>"; };
+		75AFE28D183E050C00EF1506 /* PollightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PollightViewController.m; sourceTree = "<group>"; };
 		75AFE28F183E050C00EF1506 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75AFE295183E050C00EF1506 /* PollightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AFE296183E050C00EF1506 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +112,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		757E7C65183E38D3008A6AC1 /* slide table */ = {
+			isa = PBXGroup;
+			children = (
+				757E7C5C183E1A45008A6AC1 /* SLPanningTableView.h */,
+				757E7C5D183E1A45008A6AC1 /* SLPanningTableView.m */,
+			);
+			name = "slide table";
+			sourceTree = "<group>";
+		};
+		757E7C6C183E3B6A008A6AC1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				757E7C62183E38C9008A6AC1 /* DataHandler.h */,
+				757E7C63183E38C9008A6AC1 /* DataHandler.m */,
+				757E7C66183E3B5C008A6AC1 /* Poll.h */,
+				757E7C67183E3B5C008A6AC1 /* Poll.m */,
+				757E7C69183E3B63008A6AC1 /* Answer.h */,
+				757E7C6A183E3B63008A6AC1 /* Answer.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		757E7C70183E440C008A6AC1 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				757E7C53183E08BE008A6AC1 /* TodaysPollCell.h */,
+				757E7C54183E08BE008A6AC1 /* TodaysPollCell.m */,
+				757E7C6D183E4406008A6AC1 /* TodaysPollQuesitonTableCell.h */,
+				757E7C6E183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m */,
+				757E7C5F183E1E78008A6AC1 /* TodaysPollSlidingAnswerTableCell.h */,
+				757E7C60183E1E78008A6AC1 /* TodaysPollSlidingAnswerTableCell.m */,
+			);
+			name = Today;
+			sourceTree = "<group>";
+		};
+		757E7C71183E4412008A6AC1 /* old */ = {
+			isa = PBXGroup;
+			children = (
+				757E7C56183E148A008A6AC1 /* OldPollCell.h */,
+				757E7C57183E148A008A6AC1 /* OldPollCell.m */,
+				757E7C73183E6B9B008A6AC1 /* OldPollQuesitonTableCell.h */,
+				757E7C74183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m */,
+				757E7C76183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.h */,
+				757E7C77183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m */,
+			);
+			name = old;
+			sourceTree = "<group>";
+		};
+		757E7C72183E4416008A6AC1 /* future */ = {
+			isa = PBXGroup;
+			children = (
+				757E7C59183E16BF008A6AC1 /* FuturePollCell.h */,
+				757E7C5A183E16BF008A6AC1 /* FuturePollCell.m */,
+			);
+			name = future;
+			sourceTree = "<group>";
+		};
 		75AFE26B183E050C00EF1506 = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +205,13 @@
 				75AFE286183E050C00EF1506 /* AppDelegate.h */,
 				75AFE287183E050C00EF1506 /* AppDelegate.m */,
 				75AFE289183E050C00EF1506 /* Main.storyboard */,
-				75AFE28C183E050C00EF1506 /* ViewController.h */,
-				75AFE28D183E050C00EF1506 /* ViewController.m */,
+				75AFE28C183E050C00EF1506 /* PollightViewController.h */,
+				75AFE28D183E050C00EF1506 /* PollightViewController.m */,
+				757E7C70183E440C008A6AC1 /* Today */,
+				757E7C71183E4412008A6AC1 /* old */,
+				757E7C72183E4416008A6AC1 /* future */,
+				757E7C65183E38D3008A6AC1 /* slide table */,
+				757E7C6C183E3B6A008A6AC1 /* Data */,
 				75AFE28F183E050C00EF1506 /* Images.xcassets */,
 				75AFE27E183E050C00EF1506 /* Supporting Files */,
 			);
@@ -249,9 +344,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75AFE28E183E050C00EF1506 /* ViewController.m in Sources */,
+				757E7C68183E3B5C008A6AC1 /* Poll.m in Sources */,
+				757E7C61183E1E78008A6AC1 /* TodaysPollSlidingAnswerTableCell.m in Sources */,
+				75AFE28E183E050C00EF1506 /* PollightViewController.m in Sources */,
+				757E7C64183E38C9008A6AC1 /* DataHandler.m in Sources */,
+				757E7C78183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m in Sources */,
+				757E7C5B183E16BF008A6AC1 /* FuturePollCell.m in Sources */,
+				757E7C5E183E1A45008A6AC1 /* SLPanningTableView.m in Sources */,
+				757E7C6B183E3B63008A6AC1 /* Answer.m in Sources */,
+				757E7C6F183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m in Sources */,
 				75AFE288183E050C00EF1506 /* AppDelegate.m in Sources */,
+				757E7C75183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m in Sources */,
+				757E7C55183E08BE008A6AC1 /* TodaysPollCell.m in Sources */,
 				75AFE284183E050C00EF1506 /* main.m in Sources */,
+				757E7C58183E148A008A6AC1 /* OldPollCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +566,7 @@
 				75AFE2A8183E050C00EF1506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75AFE2A9183E050C00EF1506 /* Build configuration list for PBXNativeTarget "PollightTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +575,7 @@
 				75AFE2AB183E050C00EF1506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
