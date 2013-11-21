@@ -30,10 +30,21 @@
     return self;
 }
 
+- (void)prepareForReuse
+{
+    //_poll = nil;
+}
+
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    _dataHandler = [DataHandler dataHandler];
-    _poll = _dataHandler.todaysPoll;
+    if (_dataHandler == nil) {
+        _dataHandler = [DataHandler dataHandler];
+        [_dataHandler addDelegate:self];
+    }
+    if (_poll == nil) {
+        [_dataHandler fetchPastPoll:_dayOffset];
+    }
     
     return _poll.answers.count + 1;
 }
@@ -43,6 +54,7 @@
     if (indexPath.row == 0) {
         OldPollQuesitonTableCell* cell = [tableView dequeueReusableCellWithIdentifier:@"pollQuestionTableCell"];
         [cell.questionLabel setText:_poll.questionString];
+        [cell.dateLabel setText:[NSString stringWithFormat:@"%d/11/2013",22+_dayOffset]];
         return cell;
     }
     if (indexPath.row > 0) {
@@ -68,4 +80,15 @@
     [_pollTable reloadData];
 }
 
+-(void)gotPoll:(Poll*)poll atDayOffset:(int)offset
+{
+    _poll = poll;
+    //[self showVotes];
+}
+
+-(void)refreshPoll
+{
+    _poll = nil;
+    [_pollTable reloadData];
+}
 @end

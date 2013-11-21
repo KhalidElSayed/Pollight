@@ -12,8 +12,11 @@
 #import "OldPollQuesitonTableCell.h"
 #import "DataHandler.h"
 
-@interface OldPollCell : UICollectionViewCell <UITableViewDataSource, UITableViewDelegate>
+@interface OldPollCell : UICollectionViewCell <UITableViewDataSource, UITableViewDelegate,DataHandlerProtocol>
+
+@property (assign, nonatomic) int dayOffset;
 
 -(void)showVotes;
+-(void)refreshPoll;
 
 @end

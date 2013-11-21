@@ -18,6 +18,7 @@
 		757E7C6F183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C6E183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m */; };
 		757E7C75183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C74183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m */; };
 		757E7C78183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757E7C77183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m */; };
+		758DDE17183EA55500A277CA /* FuturePollTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 758DDE16183EA55500A277CA /* FuturePollTableCell.m */; };
 		75AFE278183E050C00EF1506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE277183E050C00EF1506 /* Foundation.framework */; };
 		75AFE27A183E050C00EF1506 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE279183E050C00EF1506 /* CoreGraphics.framework */; };
 		75AFE27C183E050C00EF1506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFE27B183E050C00EF1506 /* UIKit.framework */; };
@@ -67,6 +68,8 @@
 		757E7C74183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldPollQuesitonTableCell.m; sourceTree = "<group>"; };
 		757E7C76183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldPollSlidingAnswerTableCell.h; sourceTree = "<group>"; };
 		757E7C77183E6BD0008A6AC1 /* OldPollSlidingAnswerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldPollSlidingAnswerTableCell.m; sourceTree = "<group>"; };
+		758DDE15183EA55500A277CA /* FuturePollTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuturePollTableCell.h; sourceTree = "<group>"; };
+		758DDE16183EA55500A277CA /* FuturePollTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuturePollTableCell.m; sourceTree = "<group>"; };
 		75AFE274183E050C00EF1506 /* Pollight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AFE277183E050C00EF1506 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75AFE279183E050C00EF1506 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +168,8 @@
 			children = (
 				757E7C59183E16BF008A6AC1 /* FuturePollCell.h */,
 				757E7C5A183E16BF008A6AC1 /* FuturePollCell.m */,
+				758DDE15183EA55500A277CA /* FuturePollTableCell.h */,
+				758DDE16183EA55500A277CA /* FuturePollTableCell.m */,
 			);
 			name = future;
 			sourceTree = "<group>";
@@ -355,6 +360,7 @@
 				757E7C6F183E4406008A6AC1 /* TodaysPollQuesitonTableCell.m in Sources */,
 				75AFE288183E050C00EF1506 /* AppDelegate.m in Sources */,
 				757E7C75183E6B9B008A6AC1 /* OldPollQuesitonTableCell.m in Sources */,
+				758DDE17183EA55500A277CA /* FuturePollTableCell.m in Sources */,
 				757E7C55183E08BE008A6AC1 /* TodaysPollCell.m in Sources */,
 				75AFE284183E050C00EF1506 /* main.m in Sources */,
 				757E7C58183E148A008A6AC1 /* OldPollCell.m in Sources */,

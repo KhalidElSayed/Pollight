@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataHandler.h"
 
-@interface FuturePollCell : UICollectionViewCell <UITableViewDataSource, UITableViewDelegate>
+@interface FuturePollCell : UICollectionViewCell <UITableViewDataSource, UITableViewDelegate,DataHandlerProtocol>
+
+@property (assign, nonatomic) int dayOffset;
+
+-(void)refreshPolls;
 
 @end

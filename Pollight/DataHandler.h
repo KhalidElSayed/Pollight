@@ -16,6 +16,8 @@
 @optional
 
 -(void)gotTodaysPoll;
+-(void)gotPoll:(Poll*)poll atDayOffset:(int)offset;
+-(void)gotPolls:(NSArray*)polls atDayOffset:(int)offset;
 
 @end
 
@@ -24,6 +26,8 @@
 + (instancetype)dataHandler;
 
 -(void)fetchTodaysPoll;
+-(void)fetchPastPoll:(int)dayOffset;
+-(void)fetchFuturePoll:(int)dayOffset;
 
 @property (strong, nonatomic) Poll* todaysPoll;
 

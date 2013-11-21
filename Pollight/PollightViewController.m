@@ -52,6 +52,8 @@
 {
     if (indexPath.row < 7) {
         OldPollCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"oldPollCell" forIndexPath:indexPath];
+        [cell setDayOffset: indexPath.row - 7];
+        [cell refreshPoll];
         return cell;
     }
     if (indexPath.row == 7) {
@@ -61,6 +63,8 @@
     }
     if (indexPath.row > 7) {
         FuturePollCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"futurePollCell" forIndexPath:indexPath];
+        [cell setDayOffset: indexPath.row - 7];
+        [cell refreshPolls];
         return cell;
     }
 
@@ -74,9 +78,12 @@
     
     NSArray* visibleItems = [_collectionView indexPathsForVisibleItems];
     NSIndexPath* path = visibleItems[0];
-    OldPollCell* oldCell = (OldPollCell*)[_collectionView cellForItemAtIndexPath:path];
-    
-    [oldCell showVotes];
+    if([_collectionView cellForItemAtIndexPath:path].class == [OldPollCell class])
+    {
+        OldPollCell* oldCell = (OldPollCell*)[_collectionView cellForItemAtIndexPath:path];
+        
+        [oldCell showVotes];
+    }
 }
 
 @end

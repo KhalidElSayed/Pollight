@@ -40,7 +40,7 @@
 -(void)showVoteResults:(BOOL)animated
 {
     self.contentView.backgroundColor = [UIColor whiteColor];
-//    _answerWrapperView.backgroundColor = [UIColor clearColor];
+    panningView.backgroundColor = [UIColor clearColor];
     _answerVotePercentageLabel.hidden = NO;
     _answerVoteView.hidden = NO;
     _answerVoteView.center = CGPointMake(-100, _answerVoteView.center.y);
@@ -61,7 +61,7 @@
     }
     
     
-    _answerVoteView.frame = CGRectOffset( _answerVoteView.frame,  _answer.percentageOfVotes.intValue * 2.5, 0 );
+    _answerVoteView.frame = CGRectOffset( _answerVoteView.frame,  _answer.percentageOfVotes.intValue * 2, 0 );
     
     if (animated) {
         [UIView commitAnimations];

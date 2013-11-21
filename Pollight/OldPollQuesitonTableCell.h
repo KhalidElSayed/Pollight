@@ -11,5 +11,6 @@
 @interface OldPollQuesitonTableCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 
 @end
