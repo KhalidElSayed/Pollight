@@ -30,11 +30,6 @@
     return self;
 }
 
-- (void)prepareForReuse
-{
-    //_poll = nil;
-}
-
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -83,7 +78,7 @@
 -(void)gotPoll:(Poll*)poll atDayOffset:(int)offset
 {
     _poll = poll;
-    //[self showVotes];
+    [self showVotes];
 }
 
 -(void)refreshPoll
